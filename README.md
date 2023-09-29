@@ -24,7 +24,7 @@ The purpose of this project is to demonstrate automated testing using Cucumber f
 
 To get started with running the tests, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/kanhaiya1088/cucumber-rest-api-crud-tests.git`
+1. Clone the repository: `git clone https://github.com/kanhaiya1088/spring-book-store-cucumber.git`
 2. Install the necessary dependencies: `mvn install`
 3. Configure the REST API endpoint in the test configuration file.
 4. Run the Cucumber tests: `mvn test`
