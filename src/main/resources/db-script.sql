@@ -2,6 +2,10 @@
 CREATE SCHEMA `bookstore` ;
 
 
+DROP TABLE IF EXISTS `bookstore`.`book_store`;
+DROP TABLE IF EXISTS `bookstore`.`hibernate_sequence`;
+DROP TABLE IF EXISTS `bookstore`.`book_audit`;
+
 -- After Run application we need to run the below all Scripts into our mySql bookstore Database;
 DROP TABLE if exists bookstore.book_audit;
 CREATE TABLE bookstore.book_audit (
